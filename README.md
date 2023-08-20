@@ -17,7 +17,14 @@ Backend classification network is based on the models proposed in https://github
 
 ### Data preparation
 
-Speech utterances should first be decomposed into frames of length 11ms without overlapping. Each utterance must be stored in a separate .npy file so that the                Dataloaders can read them. A set of sample frame speech files have been provided in data folder for training (TrainSel.tar.gz) and develpment (DevSel.tar.gz) partitions. 
+Speech utterances should first be decomposed into frames of length 11ms without overlapping. Each utterance must be stored in a separate _.npy_ file so that the              Dataloaders can read them. A set of sample frame speech files have been provided in data folder for training (_TrainSel.tar.gz_) and develpment (_DevSel.tar.gz_) partitions. 
 
-2. 
+### Running the experiment
+
+To run the example replay detection experiment, execute the following command:
+
+```
+python main.py 
+```
+
 
