@@ -6,4 +6,4 @@ This project presents a system capable of detecting replay attacks on automatic 
 
 * Python 3.6
 * PyTorch 1.8.0
-* torch-dct ([Install])(https://github.com/zh217/torch-dct)
+* torch-dct (https://github.com/zh217/torch-dct)
