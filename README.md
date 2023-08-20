@@ -15,8 +15,9 @@ Backend classification network is based on the models proposed in https://github
 
 ## How to run a ASVspoof 2019 experiment
 
-**1. Data preparation**
+### Data preparation
 
-Speech utterances should first be decomposed into frames of length 11ms without overlapping. Each utterance must be stored in a separate .npy file so that the                Dataloader can read them.   
+Speech utterances should first be decomposed into frames of length 11ms without overlapping. Each utterance must be stored in a separate .npy file so that the                Dataloaders can read them. A set of sample frame speech files have been provided in data folder for training (TrainSel.tar.gz) and develpment (DevSel.tar.gz) partitions. 
+
 2. 
 
