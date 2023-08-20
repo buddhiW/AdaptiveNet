@@ -17,6 +17,6 @@ Backend classification network is based on the models proposed in https://github
 
 **1. Data preparation**
       
-      Speech utterances should first be decomposed into frames of length 11ms without overlapping. Each utterance must be stored in a separate .npy file so that the                Dataloader can read them.   
+     Speech utterances should first be decomposed into frames of length 11ms without overlapping. Each utterance must be stored in a separate .npy file so that the                Dataloader can read them.   
 2. 
 
