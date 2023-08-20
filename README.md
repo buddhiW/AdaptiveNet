@@ -5,7 +5,7 @@ This project presents a system capable of detecting replay attacks on automatic 
 An example of replay attack detection using [ASVspoof 2019] (https://www.asvspoof.org/index2019.html) dataset is provided. 
 
 This code uses parts of codes from [SincNet repository] (https://github.com/mravanelli/SincNet) for functions such as parsing configuration files. 
-Backend classification network is based on the models proposed in "https://github.com/mravanelli/SincNet".
+Backend classification network is based on the models proposed in https://github.com/nesl/asvspoof2019.
 
 ## Requirements
 
