@@ -1,4 +1,4 @@
-# Adaptive_DNN
+# AdaptiveNet
 
 This project presents a system capable of detecting replay attacks on automatic speaker verification systems by dynamically recognizing and capturing environmental and device artifacts introduced during replay via filterbanks.
 
@@ -17,7 +17,16 @@ Backend classification network is based on the models proposed in https://github
 
 ### Data preparation
 
-Speech utterances should first be decomposed into frames of length 11ms without overlapping. Each utterance must be stored in a separate _.npy_ file so that the              Dataloaders can read them. A set of sample frame speech files have been provided in _data_ folder for training (_TrainSel.tar.gz_) and develpment (_DevSel.tar.gz_) partitions. 
+Speech utterances should first be decomposed into frames of length 11ms without overlapping. Each framed utterance must be stored in a separate _.npy_ file so that the       Dataloaders can access them. A set of sample framed speech files have been provided in _data_ folder for training (_TrainSel.tar.gz_) and develpment (_DevSel.tar.gz_) partitions. 
+
+For the code to run, \[data\] 
+To frame the signals, run the following code:
+
+```
+python frame_signals.py
+```
+
+
 
 ### Running the experiment
 
