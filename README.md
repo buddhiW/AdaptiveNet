@@ -12,6 +12,7 @@ Backend classification network is based on the models proposed in https://github
 * Python 3.6
 * PyTorch 1.8.0
 * torch-dct (https://github.com/zh217/torch-dct)
+* pysoundfile (https://pysoundfile.readthedocs.io/en/latest/#)
 
 ## How to run a ASVspoof 2019 experiment
 
