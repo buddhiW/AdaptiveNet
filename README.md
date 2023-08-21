@@ -22,7 +22,7 @@ Speech utterances should first be decomposed into frames of length 11ms without 
 
 For the code to run, _\[data\]_ section of the configuration file (_cfg/config_file.cfg_) should be modified according to the user paths. In the provided code, _tr_lst_ and _te_lst_ store the individual file paths of training and development set samples, respectively. _labTr_dict_ and _labTe_dict_ dictionaries assign the corresponding label to each sample.
 
-Once the paths are set, run the following code to frame the signals:
+Once the paths are set, run the following code to decompose signals into frames:
 
 ```
 python frame_signals.py
