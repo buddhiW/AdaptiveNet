@@ -1,5 +1,6 @@
 # AdaptiveNet
 
+This repository contains the codes for our paper titled [DNN Controlled Adaptive Front-end for Replay Attack Detection Systems] (https://authors.elsevier.com/sd/article/S0167-6393(23)00107-3).
 This project presents a system capable of detecting replay attacks on automatic speaker verification systems by dynamically recognizing and capturing environmental and device artifacts introduced during replay via filterbanks.
 
 An example of replay attack detection using the Physical Attack partition of ASVspoof 2019 dataset (https://www.asvspoof.org/index2019.html) is provided. 
